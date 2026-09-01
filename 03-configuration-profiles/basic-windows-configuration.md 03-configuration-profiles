@@ -1,0 +1,69 @@
+# Lab 1 — Windows Configuration Profile
+
+## Objective
+
+Deploy a Windows configuration profile to a controlled pilot group using Microsoft Intune and verify that the configuration is successfully applied to the enrolled Windows endpoint.
+
+## Environment
+
+| Component | Configuration |
+|---|---|
+| Identity | Microsoft Entra ID |
+| Device Management | Microsoft Intune |
+| Operating System | Windows 11 Enterprise 25H2 |
+| Device | DESKTOP-48ASFDI |
+| User | Intune Test User |
+| Assignment Group | INTUNE-Pilot-Users |
+| Management | Microsoft Intune |
+| Ownership | Corporate |
+
+## Configuration
+
+A Windows configuration profile was created using the Intune **Settings Catalog**.
+
+### Policy
+
+**Name:**
+
+`LAB-WIN-01-Basic-Configuration`
+
+**Platform:**
+
+Windows 10 and later
+
+**Profile type:**
+
+Settings catalog
+
+### Assignment
+
+The policy was assigned using an **Included group**:
+
+`INTUNE-Pilot-Users`
+
+No excluded groups were configured.
+
+## Deployment Process
+
+The deployment followed this workflow:
+
+```text
+Create Configuration Profile
+            |
+            v
+Configure Settings
+            |
+            v
+Assign to INTUNE-Pilot-Users
+            |
+            v
+Device/User Targeted
+            |
+            v
+Windows Device Checks In
+            |
+            v
+Policy Processed
+            |
+            v
+Deployment Result
