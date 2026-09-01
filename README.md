@@ -1,12 +1,12 @@
 # Microsoft Intune + Microsoft Entra ID Enterprise Lab
 
-A hands-on enterprise endpoint management lab built with Microsoft Intune, Microsoft Entra ID, and Windows 11 Enterprise.
+A hands on enterprise endpoint management lab built with Microsoft Intune, Microsoft Entra ID, and Windows 11 Enterprise.
 
 ## Project Objective
 
 The objective of this project is to design, deploy, manage, secure, and troubleshoot Windows endpoints using Microsoft Intune and Microsoft Entra ID.
 
-The lab follows Microsoft's current Intune and Entra management concepts and focuses on practical administrator skills rather than simply completing tutorials.
+The lab follows Microsoft's current Intune and Entra management concepts and focuses on practical administrator skills. 
 
 ## Lab Environment
 
